@@ -4,6 +4,7 @@
     "next/core-web-vitals"
   ],
   "rules": {
-    "@typescript-eslint/no-non-null-assertion": "off" // Turn off non-null assertion check
+    "@typescript-eslint/no-non-null-assertion": "off", // Turn off non-null assertion check
+    "camelcase": "off"
   }
 }
