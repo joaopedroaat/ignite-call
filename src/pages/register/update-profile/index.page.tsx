@@ -18,6 +18,7 @@ import { Container, Header } from '../styles'
 import { FormAnnotation, ProfileBox } from './styles'
 import { api } from '@/lib/axios'
 import { useRouter } from 'next/router'
+import { NextSeo } from 'next-seo'
 
 const updateProfileSchema = z.object({
   bio: z.string(),
